@@ -2,6 +2,8 @@
 
 An attribution analysis of 337 miRNA precursors in TCGA breast tumours.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032845.svg)](https://doi.org/10.5281/zenodo.24032845)
+
 MicroRNA (miRNA) levels are often estimated from mRNA expression when miRNA sequencing is not available. This project asks what such predictions capture. Each miRNA precursor is predicted from the whole transcriptome, and that prediction is compared, on the same cross-validation folds, with simpler reference models: the miRNA's host gene(s), the genes at its genomic locus, the leading principal components of the transcriptome (interpreted as tumour state) and clinical covariates. Because the mRNA and miRNA libraries of each tumour were sequenced on the same plates, the main analysis holds out whole sequencing plates.
 
 **Full report:** [`report/mirna_prediction_attribution.pdf`](report/mirna_prediction_attribution.pdf)
@@ -72,6 +74,10 @@ environment-r.yml                    R environment (PAM50 and purity via TCGAbio
 ## Data
 
 TCGA-BRCA expression data are openly available from the [Genomic Data Commons](https://portal.gdc.cancer.gov). PAM50 calls and purity estimates come from the TCGAbiolinks Bioconductor package. Raw data and intermediate matrices are not included in this repository.
+
+## Citation
+
+Balasubramanian, J. (2026). *What do mRNA-based predictions of microRNA expression measure? An attribution analysis of 337 miRNA precursors in TCGA breast tumours* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.24032845
 
 ## Author
 

@@ -5,6 +5,7 @@ authors:
   - family-names: Balasubramanian
     given-names: Janaki
 version: "1.0"
+doi: 10.5281/zenodo.24032845
 date-released: 2026-11-05
 url: "https://github.com/janaki-bio/mirna_mrna_research"
 license: MIT
