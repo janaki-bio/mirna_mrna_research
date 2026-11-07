@@ -1,0 +1,338 @@
+mirna,category,ceiling_model,r2_full,r2_best,deciding_condition,difference_mean,difference_ci_lo,difference_ci_hi,share_folds_condition_holds,borderline,predictability_borderline
+hsa-let-7a-1,poorly predicted,r2_full,0.2279,0.2279,0.3 - r2_best > 0,0.0721,-0.115,0.2592,0.6,True,True
+hsa-let-7a-2,poorly predicted,r2_full,0.2263,0.2263,0.3 - r2_best > 0,0.0737,-0.1137,0.2611,0.6,True,True
+hsa-let-7a-3,poorly predicted,r2_full,0.2284,0.2284,0.3 - r2_best > 0,0.0716,-0.114,0.2572,0.6,True,True
+hsa-let-7b,residual,r2_full,0.4757,0.4757,gap - 0.10 >= 0,0.0077,-0.0731,0.0886,0.5333,True,False
+hsa-let-7c,host,r2_host_state_20,0.6045,0.6183,d = R2_model - 0.8 r2_best >= 0,0.0061,-0.0251,0.0374,0.6,True,False
+hsa-let-7d,own locus,r2_full,0.4759,0.4759,d = R2_model - 0.8 r2_best >= 0,0.0064,-0.0533,0.066,0.6,True,False
+hsa-let-7e,poorly predicted,r2_full,0.1679,0.1679,0.3 - r2_best > 0,0.1321,0.0261,0.2381,1.0,False,False
+hsa-let-7f-1,poorly predicted,r2_full,-0.0603,-0.0603,0.3 - r2_best > 0,0.3603,0.0521,0.6685,1.0,False,False
+hsa-let-7f-2,poorly predicted,r2_full,-0.0532,-0.0532,0.3 - r2_best > 0,0.3532,0.0526,0.6537,1.0,False,False
+hsa-let-7g,poorly predicted,r2_full,0.2723,0.2723,0.3 - r2_best > 0,0.0277,-0.123,0.1785,0.4,True,True
+hsa-let-7i,host + state,r2_full,0.4284,0.4284,d = R2_model - 0.8 r2_best >= 0,0.0249,-0.0448,0.0947,0.6667,True,False
+hsa-mir-1-1,poorly predicted,r2_full,0.1726,0.1726,0.3 - r2_best > 0,0.1274,0.0432,0.2116,1.0,False,False
+hsa-mir-1-2,poorly predicted,r2_full,0.2314,0.2314,0.3 - r2_best > 0,0.0686,-0.0244,0.1616,0.8667,True,True
+hsa-mir-100,host,r2_locus_state20,0.4341,0.4784,d = R2_model - 0.8 r2_best >= 0,0.0145,-0.0364,0.0653,0.6,True,False
+hsa-mir-101-1,poorly predicted,r2_full,0.2529,0.2529,0.3 - r2_best > 0,0.0471,-0.1171,0.2112,0.5333,True,True
+hsa-mir-101-2,poorly predicted,r2_full,0.2592,0.2592,0.3 - r2_best > 0,0.0408,-0.124,0.2056,0.4667,True,True
+hsa-mir-103a-1,residual,r2_full,0.3113,0.3113,gap - 0.10 >= 0,0.0279,-0.0655,0.1212,0.6667,True,True
+hsa-mir-103a-2,residual,r2_full,0.3123,0.3123,gap - 0.10 >= 0,0.0293,-0.0676,0.1262,0.6667,True,True
+hsa-mir-106a,own locus,r2_full,0.3332,0.3332,d = R2_model - 0.8 r2_best >= 0,0.0073,-0.0474,0.0619,0.5333,True,True
+hsa-mir-106b,tumour state,r2_full,0.5991,0.5991,d = R2_model - 0.8 r2_best >= 0,0.0482,0.0191,0.0773,1.0,False,False
+hsa-mir-107,residual,r2_full,0.3709,0.3709,gap - 0.10 >= 0,0.0414,-0.01,0.0929,0.8667,True,True
+hsa-mir-10a,host + state,r2_locus_state20,0.5564,0.8123,d = R2_model - 0.8 r2_best >= 0,0.0318,-0.0036,0.0672,0.8667,True,False
+hsa-mir-10b,host + state,r2_locus_state20,0.3886,0.5786,d = R2_model - 0.8 r2_best >= 0,0.0537,0.0309,0.0765,1.0,False,False
+hsa-mir-1180,host + state,r2_locus_state20,0.3014,0.3616,d = R2_model - 0.8 r2_best >= 0,0.0715,0.0401,0.1029,1.0,False,True
+hsa-mir-1245a,host,r2_locus_state20,0.334,0.3872,d = R2_model - 0.8 r2_best >= 0,0.0217,-0.0213,0.0647,0.7333,True,False
+hsa-mir-1247,host + state,r2_locus_state20,0.3427,0.5318,d = R2_model - 0.8 r2_best >= 0,0.053,0.0265,0.0795,1.0,False,False
+hsa-mir-1248,poorly predicted,r2_full,0.1941,0.1941,0.3 - r2_best > 0,0.1059,0.0435,0.1683,1.0,False,False
+hsa-mir-1249,poorly predicted,r2_full,0.0953,0.0953,0.3 - r2_best > 0,0.2047,0.0379,0.3716,1.0,False,False
+hsa-mir-125a,poorly predicted,r2_full,0.2704,0.2704,0.3 - r2_best > 0,0.0296,-0.1062,0.1655,0.5333,True,True
+hsa-mir-125b-1,host,r2_locus_state20,0.3761,0.3908,d = R2_model - 0.8 r2_best >= 0,0.0051,-0.051,0.0611,0.6,True,False
+hsa-mir-125b-2,host + state,r2_locus_state20,0.3876,0.4013,d = R2_model - 0.8 r2_best >= 0,0.0314,-0.0011,0.064,0.8667,True,False
+hsa-mir-126,poorly predicted,r2_full,0.234,0.234,0.3 - r2_best > 0,0.066,-0.0638,0.1958,0.6667,True,True
+hsa-mir-1266,residual,r2_full,0.4494,0.4494,gap - 0.10 >= 0,0.0029,-0.0573,0.063,0.4667,True,False
+hsa-mir-127,own locus,r2_locus_state20,0.4754,0.4983,d = R2_model - 0.8 r2_best >= 0,0.0997,0.0858,0.1135,1.0,False,False
+hsa-mir-1270,host + state,r2_host_state_20,0.2111,0.5292,d = R2_model - 0.8 r2_best >= 0,0.1058,0.0881,0.1236,1.0,False,False
+hsa-mir-1271,poorly predicted,r2_host_state_20,0.2247,0.2776,0.3 - r2_best > 0,0.0224,-0.1057,0.1506,0.6,True,True
+hsa-mir-1277,poorly predicted,r2_host_state_20,0.1873,0.2078,0.3 - r2_best > 0,0.0922,-0.0331,0.2176,0.7333,True,True
+hsa-mir-128-1,host + state,r2_full,0.3288,0.3288,d = R2_model - 0.8 r2_best >= 0,0.0599,-0.0007,0.1206,0.8,True,True
+hsa-mir-128-2,poorly predicted,r2_locus_state20,0.2342,0.2555,0.3 - r2_best > 0,0.0445,-0.0514,0.1403,0.6667,True,True
+hsa-mir-1287,host + state,r2_full,0.3853,0.3853,d = R2_model - 0.8 r2_best >= 0,0.0693,0.0242,0.1145,1.0,False,True
+hsa-mir-1296,partly explained,r2_full,0.3336,0.3336,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.0015,-0.0587,0.0558,0.3333,True,True
+hsa-mir-1301,tumour state,r2_full,0.5835,0.5835,d = R2_model - 0.8 r2_best >= 0,0.0004,-0.0477,0.0485,0.4667,True,False
+hsa-mir-1306,tumour state,r2_full,0.4805,0.4805,d = R2_model - 0.8 r2_best >= 0,0.0406,0.0053,0.0758,0.9333,False,False
+hsa-mir-1307,host + state,r2_full,0.5805,0.5805,d = R2_model - 0.8 r2_best >= 0,0.0103,-0.0331,0.0537,0.4667,True,False
+hsa-mir-130a,host + state,r2_full,0.4091,0.4091,d = R2_model - 0.8 r2_best >= 0,0.0023,-0.0807,0.0854,0.4,True,True
+hsa-mir-130b,tumour state,r2_full,0.5839,0.5839,d = R2_model - 0.8 r2_best >= 0,0.0253,-0.0226,0.0732,0.8,True,False
+hsa-mir-132,residual,r2_full,0.3462,0.3462,gap - 0.10 >= 0,0.0167,-0.0195,0.0528,0.7333,True,True
+hsa-mir-134,own locus,r2_full,0.4771,0.4771,d = R2_model - 0.8 r2_best >= 0,0.0549,-0.0043,0.114,0.8,True,False
+hsa-mir-135b,host,r2_host_state_20,0.6512,0.7148,d = R2_model - 0.8 r2_best >= 0,0.0879,0.0692,0.1065,1.0,False,False
+hsa-mir-136,poorly predicted,r2_locus_state20,0.2664,0.2941,0.3 - r2_best > 0,0.0059,-0.1427,0.1544,0.4,True,True
+hsa-mir-139,host,r2_host_state_20,0.5778,0.5919,d = R2_model - 0.8 r2_best >= 0,0.0107,-0.0292,0.0506,0.5333,True,False
+hsa-mir-140,host + state,r2_full,0.6153,0.6153,d = R2_model - 0.8 r2_best >= 0,0.0184,-0.0285,0.0652,0.7333,True,False
+hsa-mir-141,own locus,r2_full,0.5346,0.5346,d = R2_model - 0.8 r2_best >= 0,0.0365,0.0035,0.0694,0.8667,False,False
+hsa-mir-142,tumour state,r2_full,0.5694,0.5694,d = R2_model - 0.8 r2_best >= 0,0.0411,-0.015,0.0973,0.8,True,False
+hsa-mir-143,poorly predicted,r2_host_state_20,0.0111,0.0146,0.3 - r2_best > 0,0.2854,-0.042,0.6128,0.9333,True,True
+hsa-mir-144,poorly predicted,r2_full,0.213,0.213,0.3 - r2_best > 0,0.087,0.0263,0.1478,1.0,False,False
+hsa-mir-145,poorly predicted,r2_full,0.2962,0.2962,0.3 - r2_best > 0,0.0038,-0.1152,0.1228,0.4667,True,True
+hsa-mir-1468,partly explained,r2_full,0.4162,0.4162,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.0022,-0.0456,0.0412,0.2,True,False
+hsa-mir-146a,tumour state,r2_locus_state20,0.6367,0.6406,d = R2_model - 0.8 r2_best >= 0,0.0262,-0.0056,0.058,0.8,True,False
+hsa-mir-146b,residual,r2_full,0.4727,0.4727,gap - 0.10 >= 0,0.0163,-0.0392,0.0718,0.6667,True,False
+hsa-mir-148a,own locus,r2_locus_state20,0.5304,0.5689,d = R2_model - 0.8 r2_best >= 0,0.1138,0.0968,0.1308,1.0,False,False
+hsa-mir-148b,host + state,r2_full,0.3108,0.3108,d = R2_model - 0.8 r2_best >= 0,0.0234,-0.0881,0.135,0.6,True,True
+hsa-mir-149,own locus,r2_locus_state20,0.5308,0.6262,d = R2_model - 0.8 r2_best >= 0,0.1252,0.1142,0.1363,1.0,False,False
+hsa-mir-150,tumour state,r2_full,0.7413,0.7413,d = R2_model - 0.8 r2_best >= 0,0.0375,0.0126,0.0624,1.0,False,False
+hsa-mir-151a,host + state,r2_host_state_20,0.4207,0.4264,d = R2_model - 0.8 r2_best >= 0,0.0853,0.0526,0.1179,1.0,False,True
+hsa-mir-151b,poorly predicted,r2_full,0.1117,0.1117,0.3 - r2_best > 0,0.1883,0.1234,0.2532,1.0,False,False
+hsa-mir-152,poorly predicted,r2_host_state_20,0.2282,0.2989,0.3 - r2_best > 0,0.0011,-0.1986,0.2009,0.4667,True,True
+hsa-mir-153-2,host + state,r2_host_state_20,0.3676,0.4567,d = R2_model - 0.8 r2_best >= 0,0.0913,0.0736,0.1091,1.0,False,False
+hsa-mir-154,own locus,r2_locus_state20,0.287,0.3516,d = R2_model - 0.8 r2_best >= 0,0.0703,0.0508,0.0899,1.0,False,True
+hsa-mir-155,tumour state,r2_full,0.6993,0.6993,d = R2_model - 0.8 r2_best >= 0,0.098,0.0593,0.1367,1.0,False,False
+hsa-mir-15a,poorly predicted,r2_full,0.2957,0.2957,0.3 - r2_best > 0,0.0043,-0.1809,0.1894,0.4,True,True
+hsa-mir-15b,host + state,r2_full,0.421,0.421,d = R2_model - 0.8 r2_best >= 0,0.0355,-0.0251,0.0962,0.8,True,False
+hsa-mir-16-1,residual,r2_full,0.45,0.45,gap - 0.10 >= 0,0.0236,-0.0664,0.1136,0.8,True,True
+hsa-mir-16-2,residual,r2_full,0.4538,0.4538,gap - 0.10 >= 0,0.0276,-0.0635,0.1187,0.8,True,True
+hsa-mir-17,tumour state,r2_full,0.7505,0.7505,d = R2_model - 0.8 r2_best >= 0,0.0282,-0.0142,0.0706,0.8667,True,False
+hsa-mir-181a-1,residual,r2_full,0.4185,0.4185,gap - 0.10 >= 0,0.1125,0.0472,0.1779,1.0,False,False
+hsa-mir-181a-2,own locus,r2_full,0.4086,0.4086,d = R2_model - 0.8 r2_best >= 0,0.0076,-0.0571,0.0723,0.5333,True,False
+hsa-mir-181b-1,residual,r2_full,0.4703,0.4703,gap - 0.10 >= 0,0.1091,0.0681,0.1502,1.0,False,False
+hsa-mir-181b-2,residual,r2_full,0.4553,0.4553,gap - 0.10 >= 0,0.0889,0.0412,0.1366,0.9333,False,False
+hsa-mir-181c,host + state,r2_locus_state20,0.4706,0.5019,d = R2_model - 0.8 r2_best >= 0,0.0789,0.0507,0.1071,1.0,False,False
+hsa-mir-181d,host,r2_locus_state20,0.519,0.5268,d = R2_model - 0.8 r2_best >= 0,0.0144,-0.0416,0.0704,0.7333,True,False
+hsa-mir-182,own locus,r2_full,0.4837,0.4837,d = R2_model - 0.8 r2_best >= 0,0.0545,-0.0038,0.1128,0.8,True,False
+hsa-mir-183,own locus,r2_full,0.5702,0.5702,d = R2_model - 0.8 r2_best >= 0,0.0007,-0.0485,0.0499,0.6,True,False
+hsa-mir-184,residual,r2_full,0.4404,0.4404,gap - 0.10 >= 0,0.0236,-0.0104,0.0577,0.8,True,False
+hsa-mir-185,host + state,r2_full,0.4313,0.4313,d = R2_model - 0.8 r2_best >= 0,0.0341,-0.0189,0.087,0.8,True,False
+hsa-mir-186,host + state,r2_full,0.4517,0.4517,d = R2_model - 0.8 r2_best >= 0,0.0035,-0.0661,0.0731,0.4,True,True
+hsa-mir-187,own locus,r2_locus_state20,0.4623,0.4912,d = R2_model - 0.8 r2_best >= 0,0.0982,0.0869,0.1095,1.0,False,False
+hsa-mir-188,tumour state,r2_host_state_20,0.3568,0.3926,d = R2_model - 0.8 r2_best >= 0,0.0004,-0.0384,0.0392,0.5333,True,True
+hsa-mir-18a,tumour state,r2_full,0.7166,0.7166,d = R2_model - 0.8 r2_best >= 0,0.102,0.0588,0.1452,1.0,False,False
+hsa-mir-190a,poorly predicted,r2_host_state_20,0.103,0.2135,0.3 - r2_best > 0,0.0865,-0.0622,0.2352,0.7333,True,True
+hsa-mir-190b,tumour state,r2_full,0.7177,0.7177,d = R2_model - 0.8 r2_best >= 0,0.0085,-0.0544,0.0714,0.6,True,False
+hsa-mir-191,partly explained,r2_full,0.3608,0.3608,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.0253,-0.14,0.0894,0.1333,True,True
+hsa-mir-192,residual,r2_full,0.3772,0.3772,gap - 0.10 >= 0,0.0342,-0.0339,0.1023,0.7333,True,True
+hsa-mir-193a,poorly predicted,r2_full,0.286,0.286,0.3 - r2_best > 0,0.014,-0.1126,0.1405,0.4,True,True
+hsa-mir-193b,host + state,r2_locus_state20,0.4723,0.5238,d = R2_model - 0.8 r2_best >= 0,0.1042,0.0867,0.1216,1.0,False,False
+hsa-mir-194-1,residual,r2_full,0.4112,0.4112,gap - 0.10 >= 0,0.1643,0.1085,0.2201,1.0,False,False
+hsa-mir-194-2,residual,r2_full,0.4202,0.4202,gap - 0.10 >= 0,0.1603,0.0927,0.2279,1.0,False,False
+hsa-mir-195,own locus,r2_full,0.3491,0.3491,d = R2_model - 0.8 r2_best >= 0,0.0161,-0.0268,0.059,0.7333,True,True
+hsa-mir-196a-1,paralog locus,r2_locus_state20,0.6461,0.8837,d = R2_model - 0.8 r2_best >= 0,0.1767,0.1727,0.1808,1.0,False,False
+hsa-mir-196a-2,own locus,r2_locus_state20,0.6504,0.8861,d = R2_model - 0.8 r2_best >= 0,0.1772,0.1736,0.1809,1.0,False,False
+hsa-mir-196b,host + state,r2_locus_state20,0.3415,0.5122,d = R2_model - 0.8 r2_best >= 0,0.02,-0.0529,0.0929,0.5333,True,False
+hsa-mir-197,host + state,r2_full,0.5071,0.5071,d = R2_model - 0.8 r2_best >= 0,0.0223,-0.0306,0.0753,0.8,True,False
+hsa-mir-1976,poorly predicted,r2_locus_state20,0.2197,0.2239,0.3 - r2_best > 0,0.0761,-0.0491,0.2013,0.7333,True,True
+hsa-mir-199a-1,paralog locus,r2_full,0.476,0.476,d = R2_model - 0.8 r2_best >= 0,0.0583,-0.0125,0.1291,0.8,True,False
+hsa-mir-199a-2,host + state,r2_full,0.4616,0.4616,d = R2_model - 0.8 r2_best >= 0,0.056,-0.0126,0.1246,0.8,True,False
+hsa-mir-199b,partly explained,r2_full,0.4344,0.4344,closest failed rule 'tumour state': d < 0; and gap - 0.10 < 0,-0.0103,-0.0918,0.0712,0.0,True,False
+hsa-mir-19a,tumour state,r2_full,0.3482,0.3482,d = R2_model - 0.8 r2_best >= 0,0.0472,-0.0368,0.1312,0.8667,True,True
+hsa-mir-19b-1,tumour state,r2_full,0.365,0.365,d = R2_model - 0.8 r2_best >= 0,0.0263,-0.0764,0.129,0.6,True,True
+hsa-mir-19b-2,tumour state,r2_full,0.3201,0.3201,d = R2_model - 0.8 r2_best >= 0,0.0288,-0.069,0.1267,0.7333,True,True
+hsa-mir-200a,own locus,r2_locus_state20,0.4227,0.5262,d = R2_model - 0.8 r2_best >= 0,0.1052,0.0871,0.1234,1.0,False,False
+hsa-mir-200b,own locus,r2_locus_state20,0.4097,0.5053,d = R2_model - 0.8 r2_best >= 0,0.1011,0.0816,0.1205,1.0,False,False
+hsa-mir-200c,own locus,r2_full,0.5614,0.5614,d = R2_model - 0.8 r2_best >= 0,0.0046,-0.0512,0.0604,0.5333,True,False
+hsa-mir-203a,residual,r2_full,0.5757,0.5757,gap - 0.10 >= 0,0.0413,-0.0189,0.1015,0.7333,True,False
+hsa-mir-203b,residual,r2_full,0.4755,0.4755,gap - 0.10 >= 0,0.0335,-0.0273,0.0942,0.6667,True,False
+hsa-mir-204,tumour state,r2_full,0.3984,0.3984,d = R2_model - 0.8 r2_best >= 0,0.0215,-0.0143,0.0574,0.8,True,False
+hsa-mir-205,host,r2_locus_state20,0.5277,0.7488,d = R2_model - 0.8 r2_best >= 0,0.0278,0.0014,0.0543,0.9333,False,False
+hsa-mir-20a,tumour state,r2_full,0.5778,0.5778,d = R2_model - 0.8 r2_best >= 0,0.0259,-0.0164,0.0682,0.8667,True,False
+hsa-mir-20b,own locus,r2_full,0.3806,0.3806,d = R2_model - 0.8 r2_best >= 0,0.0683,0.0068,0.1298,0.9333,False,False
+hsa-mir-21,host + state,r2_full,0.4869,0.4869,d = R2_model - 0.8 r2_best >= 0,0.0469,-0.0114,0.1051,0.8667,True,False
+hsa-mir-210,host + state,r2_host_state_20,0.62,0.6348,d = R2_model - 0.8 r2_best >= 0,0.127,0.1036,0.1503,1.0,False,False
+hsa-mir-2110,poorly predicted,r2_locus_state20,0.1131,0.1175,0.3 - r2_best > 0,0.1825,0.1093,0.2557,1.0,False,False
+hsa-mir-212,poorly predicted,r2_full,0.1836,0.1836,0.3 - r2_best > 0,0.1164,-0.0019,0.2346,1.0,True,True
+hsa-mir-214,host + state,r2_full,0.405,0.405,d = R2_model - 0.8 r2_best >= 0,0.0617,-0.0102,0.1336,0.8,True,False
+hsa-mir-215,poorly predicted,r2_full,0.1692,0.1692,0.3 - r2_best > 0,0.1308,-0.0578,0.3193,0.7333,True,True
+hsa-mir-217,poorly predicted,r2_full,0.2041,0.2041,0.3 - r2_best > 0,0.0959,0.0193,0.1725,1.0,False,False
+hsa-mir-218-1,host + state,r2_full,0.3781,0.3781,d = R2_model - 0.8 r2_best >= 0,0.049,-0.0328,0.1309,0.7333,True,True
+hsa-mir-218-2,paralog locus,r2_full,0.3897,0.3897,d = R2_model - 0.8 r2_best >= 0,0.0411,-0.0395,0.1218,0.7333,True,False
+hsa-mir-219a-1,poorly predicted,r2_full,0.264,0.264,0.3 - r2_best > 0,0.036,-0.026,0.0981,0.6667,True,True
+hsa-mir-22,own locus,r2_full,0.5077,0.5077,d = R2_model - 0.8 r2_best >= 0,0.0295,-0.0052,0.0641,0.8667,True,False
+hsa-mir-221,host + state,r2_locus_state20,0.5008,0.5201,d = R2_model - 0.8 r2_best >= 0,0.1023,0.0875,0.1172,1.0,False,False
+hsa-mir-222,host + state,r2_host_state_20,0.4697,0.489,d = R2_model - 0.8 r2_best >= 0,0.0978,0.0666,0.129,1.0,False,False
+hsa-mir-223,host + state,r2_full,0.5727,0.5727,d = R2_model - 0.8 r2_best >= 0,0.0123,-0.0466,0.0713,0.6,True,False
+hsa-mir-224,host,r2_host_state_20,0.4858,0.7583,d = R2_model - 0.8 r2_best >= 0,0.0375,0.0123,0.0626,0.9333,False,False
+hsa-mir-2355,host + state,r2_host_state_20,0.3741,0.4295,d = R2_model - 0.8 r2_best >= 0,0.0859,0.0704,0.1014,1.0,False,False
+hsa-mir-23a,partly explained,r2_full,0.4735,0.4735,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.0033,-0.0807,0.074,0.0667,True,False
+hsa-mir-23b,host + state,r2_host_state_20,0.4306,0.4473,d = R2_model - 0.8 r2_best >= 0,0.0895,0.0735,0.1054,1.0,False,False
+hsa-mir-24-1,tumour state,r2_full,0.4103,0.4103,d = R2_model - 0.8 r2_best >= 0,0.0474,0.013,0.0819,0.8667,False,False
+hsa-mir-24-2,tumour state,r2_full,0.4176,0.4176,d = R2_model - 0.8 r2_best >= 0,0.0459,0.0097,0.0822,0.8667,False,False
+hsa-mir-25,host + state,r2_full,0.5071,0.5071,d = R2_model - 0.8 r2_best >= 0,0.0724,0.04,0.1048,1.0,False,False
+hsa-mir-26a-1,poorly predicted,r2_full,0.2346,0.2346,0.3 - r2_best > 0,0.0654,-0.1357,0.2666,0.6667,True,True
+hsa-mir-26a-2,poorly predicted,r2_full,0.2324,0.2324,0.3 - r2_best > 0,0.0676,-0.1333,0.2685,0.6667,True,True
+hsa-mir-26b,poorly predicted,r2_full,0.1115,0.1115,0.3 - r2_best > 0,0.1885,0.0801,0.2969,1.0,False,False
+hsa-mir-27a,poorly predicted,r2_full,0.2645,0.2645,0.3 - r2_best > 0,0.0355,-0.1691,0.2401,0.4667,True,True
+hsa-mir-27b,host + state,r2_host_state_20,0.369,0.4331,d = R2_model - 0.8 r2_best >= 0,0.0866,0.0731,0.1002,1.0,False,False
+hsa-mir-28,host + state,r2_host_state_20,0.4811,0.4832,d = R2_model - 0.8 r2_best >= 0,0.0966,0.0727,0.1206,1.0,False,False
+hsa-mir-296,host + state,r2_host_state_20,-0.0048,0.3238,d = R2_model - 0.8 r2_best >= 0,0.0648,0.0484,0.0811,1.0,False,True
+hsa-mir-299,tumour state,r2_locus_state20,0.3062,0.3169,d = R2_model - 0.8 r2_best >= 0,0.0023,-0.0343,0.0388,0.4667,True,True
+hsa-mir-29a,tumour state,r2_full,0.4352,0.4352,d = R2_model - 0.8 r2_best >= 0,0.0072,-0.04,0.0544,0.7333,True,False
+hsa-mir-29b-1,tumour state,r2_full,0.34,0.34,d = R2_model - 0.8 r2_best >= 0,0.0209,-0.0492,0.0911,0.7333,True,True
+hsa-mir-29b-2,tumour state,r2_full,0.3589,0.3589,d = R2_model - 0.8 r2_best >= 0,0.0106,-0.0704,0.0916,0.6,True,True
+hsa-mir-29c,tumour state,r2_full,0.5222,0.5222,d = R2_model - 0.8 r2_best >= 0,0.0444,0.0102,0.0785,0.8667,False,False
+hsa-mir-301a,host + state,r2_full,0.5102,0.5102,d = R2_model - 0.8 r2_best >= 0,0.0501,-0.0143,0.1146,0.8667,True,False
+hsa-mir-301b,tumour state,r2_full,0.5127,0.5127,d = R2_model - 0.8 r2_best >= 0,0.0252,-0.0102,0.0605,0.7333,True,False
+hsa-mir-3065,own locus,r2_locus_state20,0.345,0.4029,d = R2_model - 0.8 r2_best >= 0,0.0806,0.0703,0.0909,1.0,False,False
+hsa-mir-3074,own locus,r2_full,0.4505,0.4505,d = R2_model - 0.8 r2_best >= 0,0.0072,-0.0396,0.054,0.5333,True,False
+hsa-mir-30a,host,r2_locus_state20,0.6323,0.7862,d = R2_model - 0.8 r2_best >= 0,0.033,-0.0286,0.0946,0.7333,True,False
+hsa-mir-30b,own locus,r2_full,0.424,0.424,d = R2_model - 0.8 r2_best >= 0,0.0318,-0.0483,0.1119,0.5333,True,False
+hsa-mir-30c-1,poorly predicted,r2_locus_state20,0.1781,0.1849,0.3 - r2_best > 0,0.1151,-0.121,0.3512,0.8,True,True
+hsa-mir-30c-2,host + state,r2_locus_state20,0.2888,0.3247,d = R2_model - 0.8 r2_best >= 0,0.0507,0.0032,0.0983,0.9333,False,True
+hsa-mir-30d,own locus,r2_full,0.5818,0.5818,d = R2_model - 0.8 r2_best >= 0,0.051,-0.0036,0.1055,0.9333,True,False
+hsa-mir-30e,host + state,r2_full,0.4983,0.4983,d = R2_model - 0.8 r2_best >= 0,0.0676,0.0036,0.1316,0.9333,False,False
+hsa-mir-31,host,r2_host_state_20,0.4352,0.5534,d = R2_model - 0.8 r2_best >= 0,0.0092,-0.0395,0.0578,0.6,True,False
+hsa-mir-3127,host + state,r2_full,0.4881,0.4881,d = R2_model - 0.8 r2_best >= 0,0.0585,-0.0057,0.1227,0.8,True,False
+hsa-mir-3130-1,poorly predicted,r2_locus_state20,-0.0978,-0.0714,0.3 - r2_best > 0,0.3714,0.1834,0.5593,1.0,False,False
+hsa-mir-3130-2,poorly predicted,r2_host_state_20,-0.0515,-0.0355,0.3 - r2_best > 0,0.3355,0.1805,0.4905,1.0,False,False
+hsa-mir-3150b,host + state,r2_locus_state20,0.4231,0.5457,d = R2_model - 0.8 r2_best >= 0,0.0994,0.0852,0.1136,1.0,False,False
+hsa-mir-3170,host + state,r2_host_state_20,0.3675,0.3703,d = R2_model - 0.8 r2_best >= 0,0.0741,0.0628,0.0853,1.0,False,False
+hsa-mir-32,poorly predicted,r2_full,0.2186,0.2186,0.3 - r2_best > 0,0.0814,-0.065,0.2277,0.7333,True,True
+hsa-mir-3200,residual,r2_full,0.5784,0.5784,gap - 0.10 >= 0,0.0167,-0.0365,0.0699,0.6,True,False
+hsa-mir-320a,poorly predicted,r2_full,0.2483,0.2483,0.3 - r2_best > 0,0.0517,-0.0301,0.1335,0.8,True,True
+hsa-mir-320b-1,poorly predicted,r2_full,0.1844,0.1844,0.3 - r2_best > 0,0.1156,0.0835,0.1477,1.0,False,False
+hsa-mir-320b-2,poorly predicted,r2_full,0.2369,0.2369,0.3 - r2_best > 0,0.0631,0.0356,0.0907,1.0,False,False
+hsa-mir-323a,poorly predicted,r2_locus_state20,0.227,0.2778,0.3 - r2_best > 0,0.0222,-0.1198,0.1642,0.6,True,True
+hsa-mir-323b,poorly predicted,r2_locus_state20,0.1901,0.2297,0.3 - r2_best > 0,0.0703,-0.1065,0.2472,0.6,True,True
+hsa-mir-324,own locus,r2_full,0.5203,0.5203,d = R2_model - 0.8 r2_best >= 0,0.0128,-0.0564,0.082,0.4667,True,False
+hsa-mir-326,poorly predicted,r2_full,0.0962,0.0962,0.3 - r2_best > 0,0.2038,-0.0272,0.4349,0.8667,True,True
+hsa-mir-328,own locus,r2_full,0.3505,0.3505,d = R2_model - 0.8 r2_best >= 0,0.0159,-0.0457,0.0774,0.7333,True,True
+hsa-mir-330,poorly predicted,r2_full,0.2868,0.2868,0.3 - r2_best > 0,0.0132,-0.1849,0.2112,0.4,True,True
+hsa-mir-331,poorly predicted,r2_locus_state20,0.1889,0.2167,0.3 - r2_best > 0,0.0833,-0.1287,0.2954,0.6667,True,True
+hsa-mir-335,host,r2_locus_state20,0.3588,0.683,d = R2_model - 0.8 r2_best >= 0,0.0358,-0.0203,0.092,0.6667,True,False
+hsa-mir-337,tumour state,r2_locus_state20,0.4229,0.4353,d = R2_model - 0.8 r2_best >= 0,0.0155,-0.011,0.042,0.8667,True,False
+hsa-mir-338,host + state,r2_locus_state20,0.3474,0.5256,d = R2_model - 0.8 r2_best >= 0,0.0727,0.0367,0.1087,0.9333,False,False
+hsa-mir-339,poorly predicted,r2_full,0.2324,0.2324,0.3 - r2_best > 0,0.0676,-0.0441,0.1794,0.7333,True,True
+hsa-mir-33a,host + state,r2_host_state_20,0.3776,0.3923,d = R2_model - 0.8 r2_best >= 0,0.0785,0.0529,0.104,1.0,False,True
+hsa-mir-33b,host + state,r2_host_state_20,0.3231,0.3814,d = R2_model - 0.8 r2_best >= 0,0.0763,0.0452,0.1074,1.0,False,True
+hsa-mir-340,host + state,r2_full,0.3101,0.3101,d = R2_model - 0.8 r2_best >= 0,0.0073,-0.0633,0.0778,0.6,True,True
+hsa-mir-342,host + state,r2_host_state_20,0.5057,0.5955,d = R2_model - 0.8 r2_best >= 0,0.1191,0.1055,0.1327,1.0,False,False
+hsa-mir-345,own locus,r2_full,0.5101,0.5101,d = R2_model - 0.8 r2_best >= 0,0.0464,-0.0075,0.1004,0.9333,True,False
+hsa-mir-34a,poorly predicted,r2_host_state_20,0.2127,0.2573,0.3 - r2_best > 0,0.0427,-0.1333,0.2187,0.6,True,True
+hsa-mir-34b,poorly predicted,r2_full,0.0805,0.0805,0.3 - r2_best > 0,0.2195,0.1156,0.3234,1.0,False,False
+hsa-mir-34c,poorly predicted,r2_full,0.2442,0.2442,0.3 - r2_best > 0,0.0558,-0.0351,0.1468,0.6667,True,True
+hsa-mir-3605,poorly predicted,r2_full,0.1686,0.1686,0.3 - r2_best > 0,0.1314,-0.0215,0.2844,0.9333,True,True
+hsa-mir-3607,poorly predicted,r2_full,0.227,0.227,0.3 - r2_best > 0,0.073,-0.0539,0.2,0.7333,True,True
+hsa-mir-361,host + state,r2_full,0.366,0.366,d = R2_model - 0.8 r2_best >= 0,0.0497,-0.0271,0.1266,0.6667,True,True
+hsa-mir-3613,poorly predicted,r2_full,0.2664,0.2664,0.3 - r2_best > 0,0.0336,-0.0993,0.1665,0.5333,True,True
+hsa-mir-3614,own locus,r2_full,0.6187,0.6187,d = R2_model - 0.8 r2_best >= 0,0.0179,-0.0182,0.0541,0.6,True,False
+hsa-mir-3615,poorly predicted,r2_locus_state20,0.1172,0.1299,0.3 - r2_best > 0,0.1701,-0.0128,0.353,0.8667,True,True
+hsa-mir-362,host + state,r2_full,0.3542,0.3542,d = R2_model - 0.8 r2_best >= 0,0.0686,-0.0139,0.1511,0.8667,True,True
+hsa-mir-363,own locus,r2_full,0.3968,0.3968,d = R2_model - 0.8 r2_best >= 0,0.0388,-0.0077,0.0853,0.8,True,False
+hsa-mir-3653,poorly predicted,r2_full,0.0749,0.0749,0.3 - r2_best > 0,0.2251,0.0974,0.3527,0.9333,False,False
+hsa-mir-365a,poorly predicted,r2_full,0.2785,0.2785,0.3 - r2_best > 0,0.0215,-0.0387,0.0817,0.6667,True,True
+hsa-mir-365b,poorly predicted,r2_full,0.2763,0.2763,0.3 - r2_best > 0,0.0237,-0.0374,0.0848,0.6667,True,True
+hsa-mir-3677,own locus,r2_full,0.5135,0.5135,d = R2_model - 0.8 r2_best >= 0,0.0008,-0.0746,0.0762,0.4667,True,False
+hsa-mir-369,own locus,r2_locus_state20,0.3733,0.3977,d = R2_model - 0.8 r2_best >= 0,0.0795,0.065,0.0941,1.0,False,False
+hsa-mir-370,own locus,r2_locus_state20,0.3622,0.445,d = R2_model - 0.8 r2_best >= 0,0.089,0.0676,0.1104,1.0,False,False
+hsa-mir-374a,residual,r2_full,0.3091,0.3091,gap - 0.10 >= 0,0.0197,-0.0652,0.1046,0.6,True,True
+hsa-mir-374b,poorly predicted,r2_full,0.2436,0.2436,0.3 - r2_best > 0,0.0564,-0.0199,0.1328,0.7333,True,True
+hsa-mir-375,own locus,r2_full,0.5952,0.5952,d = R2_model - 0.8 r2_best >= 0,0.013,-0.0403,0.0662,0.6667,True,False
+hsa-mir-376b,poorly predicted,r2_locus_state20,0.1234,0.1657,0.3 - r2_best > 0,0.1343,0.0613,0.2074,1.0,False,False
+hsa-mir-376c,poorly predicted,r2_full,0.2775,0.2775,0.3 - r2_best > 0,0.0225,-0.0427,0.0877,0.6667,True,True
+hsa-mir-377,own locus,r2_locus_state20,0.2617,0.338,d = R2_model - 0.8 r2_best >= 0,0.0676,0.0498,0.0854,1.0,False,True
+hsa-mir-378a,host + state,r2_full,0.6062,0.6062,d = R2_model - 0.8 r2_best >= 0,0.0767,0.0382,0.1153,1.0,False,False
+hsa-mir-378c,tumour state,r2_full,0.3135,0.3135,d = R2_model - 0.8 r2_best >= 0,0.0088,-0.0385,0.0561,0.5333,True,True
+hsa-mir-379,tumour state,r2_full,0.4845,0.4845,d = R2_model - 0.8 r2_best >= 0,0.0063,-0.0394,0.0521,0.6667,True,False
+hsa-mir-381,own locus,r2_locus_state20,0.4395,0.475,d = R2_model - 0.8 r2_best >= 0,0.095,0.0772,0.1128,1.0,False,False
+hsa-mir-382,own locus,r2_locus_state20,0.4382,0.4782,d = R2_model - 0.8 r2_best >= 0,0.0956,0.0822,0.109,1.0,False,False
+hsa-mir-3913-1,poorly predicted,r2_locus_state20,0.0913,0.1756,0.3 - r2_best > 0,0.1244,0.0264,0.2225,0.9333,False,False
+hsa-mir-3913-2,poorly predicted,r2_locus_state20,0.082,0.1776,0.3 - r2_best > 0,0.1224,0.0095,0.2354,0.9333,False,False
+hsa-mir-3917,poorly predicted,r2_full,0.1155,0.1155,0.3 - r2_best > 0,0.1845,0.0968,0.2722,1.0,False,False
+hsa-mir-3928,tumour state,r2_full,0.3096,0.3096,d = R2_model - 0.8 r2_best >= 0,0.006,-0.0195,0.0316,0.6,True,True
+hsa-mir-3934,own locus,r2_locus_state20,0.3171,0.3537,d = R2_model - 0.8 r2_best >= 0,0.0707,0.057,0.0845,1.0,False,True
+hsa-mir-409,own locus,r2_full,0.4243,0.4243,d = R2_model - 0.8 r2_best >= 0,0.0773,0.0158,0.1388,1.0,False,False
+hsa-mir-410,own locus,r2_locus_state20,0.3575,0.378,d = R2_model - 0.8 r2_best >= 0,0.0756,0.0496,0.1016,1.0,False,True
+hsa-mir-411,own locus,r2_locus_state20,0.299,0.3466,d = R2_model - 0.8 r2_best >= 0,0.0693,0.0429,0.0957,1.0,False,True
+hsa-mir-412,poorly predicted,r2_locus_state20,0.1075,0.1459,0.3 - r2_best > 0,0.1541,0.0907,0.2176,1.0,False,False
+hsa-mir-421,tumour state,r2_full,0.4132,0.4132,d = R2_model - 0.8 r2_best >= 0,0.0142,-0.0249,0.0533,0.7333,True,False
+hsa-mir-423,host + state,r2_locus_state20,0.3908,0.428,d = R2_model - 0.8 r2_best >= 0,0.0529,0.0306,0.0752,1.0,False,False
+hsa-mir-424,host + state,r2_host_state_20,0.2559,0.359,d = R2_model - 0.8 r2_best >= 0,0.0718,0.0469,0.0967,1.0,False,True
+hsa-mir-425,residual,r2_full,0.3694,0.3694,gap - 0.10 >= 0,0.0202,-0.0687,0.1091,0.6667,True,True
+hsa-mir-429,own locus,r2_locus_state20,0.3778,0.4046,d = R2_model - 0.8 r2_best >= 0,0.0809,0.0618,0.1,1.0,False,False
+hsa-mir-431,own locus,r2_locus_state20,0.4197,0.4747,d = R2_model - 0.8 r2_best >= 0,0.0949,0.0804,0.1095,1.0,False,False
+hsa-mir-432,own locus,r2_locus_state20,0.3084,0.3772,d = R2_model - 0.8 r2_best >= 0,0.0754,0.0566,0.0943,1.0,False,True
+hsa-mir-4326,poorly predicted,r2_locus_state20,0.0777,0.0977,0.3 - r2_best > 0,0.2023,0.113,0.2915,1.0,False,False
+hsa-mir-450a-1,poorly predicted,r2_locus_state20,0.1426,0.2531,0.3 - r2_best > 0,0.0469,-0.0493,0.1432,0.8,True,True
+hsa-mir-450a-2,poorly predicted,r2_locus_state20,0.1248,0.2424,0.3 - r2_best > 0,0.0576,-0.0287,0.1439,0.8667,True,True
+hsa-mir-450b,own locus,r2_locus_state20,0.1996,0.3094,d = R2_model - 0.8 r2_best >= 0,0.0619,0.0426,0.0812,1.0,False,True
+hsa-mir-451a,poorly predicted,r2_full,0.2147,0.2147,0.3 - r2_best > 0,0.0853,0.0272,0.1434,0.9333,False,False
+hsa-mir-452,host,r2_host_state_20,0.5948,0.7488,d = R2_model - 0.8 r2_best >= 0,0.0471,-0.0024,0.0966,0.7333,True,False
+hsa-mir-454,host + state,r2_locus_state20,0.4132,0.456,d = R2_model - 0.8 r2_best >= 0,0.0881,0.0616,0.1147,1.0,False,False
+hsa-mir-455,host + state,r2_host_state_20,0.4805,0.5594,d = R2_model - 0.8 r2_best >= 0,0.1119,0.0914,0.1324,1.0,False,False
+hsa-mir-4638,poorly predicted,r2_full,0.2737,0.2737,0.3 - r2_best > 0,0.0263,-0.1021,0.1547,0.5333,True,True
+hsa-mir-4661,host + state,r2_locus_state20,0.4549,0.4834,d = R2_model - 0.8 r2_best >= 0,0.077,0.0431,0.1109,1.0,False,False
+hsa-mir-4662a,own locus,r2_locus_state20,0.41,0.4972,d = R2_model - 0.8 r2_best >= 0,0.0994,0.0869,0.112,1.0,False,False
+hsa-mir-4668,poorly predicted,r2_host_state_20,0.243,0.2855,0.3 - r2_best > 0,0.0145,-0.1367,0.1656,0.4,True,True
+hsa-mir-4677,host + state,r2_full,0.4909,0.4909,d = R2_model - 0.8 r2_best >= 0,0.0116,-0.0223,0.0455,0.7333,True,False
+hsa-mir-4728,host + state,r2_locus_state20,0.5758,0.6729,d = R2_model - 0.8 r2_best >= 0,0.1329,0.1122,0.1536,1.0,False,False
+hsa-mir-4746,own locus,r2_locus_state20,0.3992,0.4007,d = R2_model - 0.8 r2_best >= 0,0.0801,0.0641,0.0962,1.0,False,False
+hsa-mir-4772,host,r2_host_state_20,0.6046,0.6083,d = R2_model - 0.8 r2_best >= 0,0.0166,-0.037,0.0702,0.6667,True,False
+hsa-mir-483,host,r2_host_state_20,0.1456,0.4024,d = R2_model - 0.8 r2_best >= 0,0.0335,-0.0126,0.0796,0.8,True,True
+hsa-mir-484,residual,r2_full,0.4425,0.4425,gap - 0.10 >= 0,0.0319,-0.0316,0.0955,0.8,True,False
+hsa-mir-485,own locus,r2_locus_state20,0.2757,0.361,d = R2_model - 0.8 r2_best >= 0,0.0722,0.0548,0.0896,1.0,False,True
+hsa-mir-486-1,poorly predicted,r2_full,0.2095,0.2095,0.3 - r2_best > 0,0.0905,0.0075,0.1735,1.0,False,False
+hsa-mir-486-2,poorly predicted,r2_full,0.1928,0.1928,0.3 - r2_best > 0,0.1072,0.0381,0.1763,1.0,False,False
+hsa-mir-487a,poorly predicted,r2_locus_state20,0.1914,0.2671,0.3 - r2_best > 0,0.0329,-0.0558,0.1216,0.6667,True,True
+hsa-mir-487b,own locus,r2_locus_state20,0.3428,0.3765,d = R2_model - 0.8 r2_best >= 0,0.0753,0.0564,0.0942,1.0,False,True
+hsa-mir-491,poorly predicted,r2_host_state_20,0.1499,0.1849,0.3 - r2_best > 0,0.1151,-0.0206,0.2508,0.8667,True,True
+hsa-mir-493,own locus,r2_locus_state20,0.381,0.4227,d = R2_model - 0.8 r2_best >= 0,0.0845,0.0692,0.0999,1.0,False,False
+hsa-mir-494,poorly predicted,r2_locus_state20,0.1146,0.1486,0.3 - r2_best > 0,0.1514,0.1001,0.2027,1.0,False,False
+hsa-mir-495,own locus,r2_locus_state20,0.2492,0.3096,d = R2_model - 0.8 r2_best >= 0,0.0619,0.0475,0.0763,1.0,False,True
+hsa-mir-496,poorly predicted,r2_full,0.2912,0.2912,0.3 - r2_best > 0,0.0088,-0.0864,0.1039,0.5333,True,True
+hsa-mir-497,poorly predicted,r2_full,0.2441,0.2441,0.3 - r2_best > 0,0.0559,-0.0585,0.1703,0.6,True,True
+hsa-mir-5000,poorly predicted,r2_full,0.1953,0.1953,0.3 - r2_best > 0,0.1047,0.0283,0.1811,0.9333,False,False
+hsa-mir-500a,host + state,r2_host_state_20,0.442,0.4685,d = R2_model - 0.8 r2_best >= 0,0.0937,0.0712,0.1162,1.0,False,False
+hsa-mir-500b,host + state,r2_host_state_20,0.3529,0.3938,d = R2_model - 0.8 r2_best >= 0,0.0788,0.0512,0.1063,1.0,False,True
+hsa-mir-501,host + state,r2_full,0.4947,0.4947,d = R2_model - 0.8 r2_best >= 0,0.086,0.0483,0.1236,1.0,False,False
+hsa-mir-502,host + state,r2_host_state_20,0.4445,0.5083,d = R2_model - 0.8 r2_best >= 0,0.1017,0.089,0.1143,1.0,False,False
+hsa-mir-503,poorly predicted,r2_host_state_20,0.1581,0.2578,0.3 - r2_best > 0,0.0422,-0.0813,0.1656,0.6667,True,True
+hsa-mir-505,tumour state,r2_full,0.5356,0.5356,d = R2_model - 0.8 r2_best >= 0,0.0293,-0.0155,0.0741,0.8,True,False
+hsa-mir-508,poorly predicted,r2_full,0.1697,0.1697,0.3 - r2_best > 0,0.1303,0.0457,0.2148,1.0,False,False
+hsa-mir-511,host + state,r2_host_state_20,0.3945,0.44,d = R2_model - 0.8 r2_best >= 0,0.088,0.0701,0.1059,1.0,False,False
+hsa-mir-532,host + state,r2_host_state_20,0.5612,0.5898,d = R2_model - 0.8 r2_best >= 0,0.118,0.0981,0.1379,1.0,False,False
+hsa-mir-539,own locus,r2_full,0.3003,0.3003,d = R2_model - 0.8 r2_best >= 0,0.0523,-0.0184,0.1229,0.7333,True,True
+hsa-mir-542,own locus,r2_locus_state20,0.4295,0.5581,d = R2_model - 0.8 r2_best >= 0,0.1116,0.0985,0.1247,1.0,False,False
+hsa-mir-548v,poorly predicted,r2_host_state_20,0.1246,0.2117,0.3 - r2_best > 0,0.0883,0.017,0.1596,0.8667,False,False
+hsa-mir-550a-1,paralog locus,r2_locus_state20,0.3201,0.3691,d = R2_model - 0.8 r2_best >= 0,0.0738,0.0593,0.0883,1.0,False,True
+hsa-mir-550a-2,host + state,r2_locus_state20,0.2991,0.3496,d = R2_model - 0.8 r2_best >= 0,0.0188,-0.0201,0.0577,0.6667,True,True
+hsa-mir-551b,poorly predicted,r2_full,0.1386,0.1386,0.3 - r2_best > 0,0.1614,0.0427,0.2801,0.9333,False,False
+hsa-mir-5586,host + state,r2_full,0.3607,0.3607,d = R2_model - 0.8 r2_best >= 0,0.0283,-0.0179,0.0745,0.7333,True,True
+hsa-mir-5683,partly explained,r2_full,0.3635,0.3635,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.002,-0.0353,0.0314,0.2,True,True
+hsa-mir-574,poorly predicted,r2_full,0.2823,0.2823,0.3 - r2_best > 0,0.0177,-0.0735,0.1089,0.6,True,True
+hsa-mir-576,host + state,r2_full,0.3981,0.3981,d = R2_model - 0.8 r2_best >= 0,0.0211,-0.0276,0.0698,0.6,True,True
+hsa-mir-582,host + state,r2_full,0.4016,0.4016,d = R2_model - 0.8 r2_best >= 0,0.0694,-0.01,0.1488,0.8,True,False
+hsa-mir-584,own locus,r2_full,0.5459,0.5459,d = R2_model - 0.8 r2_best >= 0,0.0406,-0.0055,0.0866,0.8667,True,False
+hsa-mir-589,own locus,r2_full,0.3956,0.3956,d = R2_model - 0.8 r2_best >= 0,0.007,-0.0312,0.0452,0.6,True,False
+hsa-mir-590,tumour state,r2_full,0.4787,0.4787,d = R2_model - 0.8 r2_best >= 0,0.0574,0.0007,0.1141,0.8,False,False
+hsa-mir-592,host + state,r2_host_state_20,0.3732,0.4903,d = R2_model - 0.8 r2_best >= 0,0.0981,0.0824,0.1137,1.0,False,False
+hsa-mir-598,host,r2_locus_state20,0.2811,0.6026,d = R2_model - 0.8 r2_best >= 0,0.0323,-0.0087,0.0733,0.8667,True,False
+hsa-mir-615,host + state,r2_locus_state20,0.5115,0.5982,d = R2_model - 0.8 r2_best >= 0,0.0658,0.0321,0.0995,1.0,False,False
+hsa-mir-616,tumour state,r2_full,0.3582,0.3582,d = R2_model - 0.8 r2_best >= 0,0.0266,-0.0234,0.0766,0.8,True,True
+hsa-mir-625,host + state,r2_locus_state20,0.4829,0.5551,d = R2_model - 0.8 r2_best >= 0,0.1056,0.0835,0.1276,1.0,False,False
+hsa-mir-627,poorly predicted,r2_full,0.0804,0.0804,0.3 - r2_best > 0,0.2196,0.1305,0.3087,1.0,False,False
+hsa-mir-628,own locus,r2_full,0.3076,0.3076,d = R2_model - 0.8 r2_best >= 0,0.0107,-0.0841,0.1055,0.6,True,True
+hsa-mir-629,host + state,r2_full,0.3697,0.3697,d = R2_model - 0.8 r2_best >= 0,0.0346,-0.0147,0.084,0.8,True,True
+hsa-mir-642a,host + state,r2_host_state_20,0.3296,0.3655,d = R2_model - 0.8 r2_best >= 0,0.0731,0.0548,0.0914,1.0,False,True
+hsa-mir-651,poorly predicted,r2_locus_state20,0.2174,0.2701,0.3 - r2_best > 0,0.0299,-0.0725,0.1324,0.6667,True,True
+hsa-mir-6510,host,r2_locus_state20,0.4086,0.7616,d = R2_model - 0.8 r2_best >= 0,0.0965,0.0548,0.1382,1.0,False,False
+hsa-mir-6511b-1,poorly predicted,r2_full,0.1992,0.1992,0.3 - r2_best > 0,0.1008,0.0433,0.1582,1.0,False,False
+hsa-mir-6511b-2,poorly predicted,r2_full,0.1771,0.1771,0.3 - r2_best > 0,0.1229,0.0577,0.1881,1.0,False,False
+hsa-mir-652,host + state,r2_locus_state20,0.3808,0.4718,d = R2_model - 0.8 r2_best >= 0,0.093,0.077,0.1089,1.0,False,False
+hsa-mir-653,host,r2_locus_state20,0.2637,0.5056,d = R2_model - 0.8 r2_best >= 0,0.0302,-0.022,0.0825,0.6667,True,False
+hsa-mir-654,own locus,r2_locus_state20,0.3161,0.3307,d = R2_model - 0.8 r2_best >= 0,0.0661,0.0508,0.0815,1.0,False,True
+hsa-mir-655,poorly predicted,r2_locus_state20,0.2128,0.2634,0.3 - r2_best > 0,0.0366,-0.0646,0.1379,0.6,True,True
+hsa-mir-659,poorly predicted,r2_full,0.1454,0.1454,0.3 - r2_best > 0,0.1546,0.0997,0.2095,1.0,False,False
+hsa-mir-660,host + state,r2_full,0.4498,0.4498,d = R2_model - 0.8 r2_best >= 0,0.0677,-0.0145,0.15,0.8667,True,False
+hsa-mir-664a,poorly predicted,r2_full,0.2322,0.2322,0.3 - r2_best > 0,0.0678,-0.0703,0.2059,0.7333,True,True
+hsa-mir-664b,poorly predicted,r2_host_state_20,0.1471,0.1708,0.3 - r2_best > 0,0.1292,0.0172,0.2412,0.8667,False,False
+hsa-mir-671,own locus,r2_full,0.455,0.455,d = R2_model - 0.8 r2_best >= 0,0.0214,-0.0183,0.061,0.7333,True,False
+hsa-mir-675,host + state,r2_host_state_20,0.1981,0.4483,d = R2_model - 0.8 r2_best >= 0,0.0897,0.0746,0.1047,1.0,False,False
+hsa-mir-6842,poorly predicted,r2_locus_state20,0.0064,0.1182,0.3 - r2_best > 0,0.1818,-0.0017,0.3653,1.0,True,True
+hsa-mir-6892,poorly predicted,r2_full,0.1788,0.1788,0.3 - r2_best > 0,0.1212,0.0531,0.1893,1.0,False,False
+hsa-mir-7-1,host + state,r2_full,0.4327,0.4327,d = R2_model - 0.8 r2_best >= 0,0.0016,-0.0451,0.0483,0.4667,True,False
+hsa-mir-708,host + state,r2_locus_state20,0.3952,0.3953,d = R2_model - 0.8 r2_best >= 0,0.0718,0.0314,0.1122,1.0,False,True
+hsa-mir-744,host + state,r2_locus_state20,0.3653,0.4136,d = R2_model - 0.8 r2_best >= 0,0.08,0.0582,0.1018,1.0,False,False
+hsa-mir-758,own locus,r2_full,0.5034,0.5034,d = R2_model - 0.8 r2_best >= 0,0.0749,0.0252,0.1245,0.9333,False,False
+hsa-mir-760,residual,r2_full,0.3567,0.3567,gap - 0.10 >= 0,0.022,-0.0131,0.0572,0.8667,True,True
+hsa-mir-766,host + state,r2_host_state_20,0.368,0.4045,d = R2_model - 0.8 r2_best >= 0,0.0809,0.0464,0.1154,1.0,False,True
+hsa-mir-769,residual,r2_full,0.4048,0.4048,gap - 0.10 >= 0,0.0093,-0.0459,0.0645,0.6667,True,True
+hsa-mir-7706,poorly predicted,r2_full,0.2742,0.2742,0.3 - r2_best > 0,0.0258,-0.0576,0.1091,0.6,True,True
+hsa-mir-874,host + state,r2_locus_state20,0.3285,0.3698,d = R2_model - 0.8 r2_best >= 0,0.0675,0.0392,0.0958,1.0,False,True
+hsa-mir-877,tumour state,r2_full,0.4959,0.4959,d = R2_model - 0.8 r2_best >= 0,0.0158,-0.0135,0.0451,0.6667,True,False
+hsa-mir-887,host + state,r2_host_state_20,0.3109,0.5352,d = R2_model - 0.8 r2_best >= 0,0.107,0.0913,0.1227,1.0,False,False
+hsa-mir-889,own locus,r2_locus_state20,0.3824,0.3832,d = R2_model - 0.8 r2_best >= 0,0.0766,0.0521,0.1012,1.0,False,True
+hsa-mir-9-1,host + state,r2_full,0.5498,0.5498,d = R2_model - 0.8 r2_best >= 0,0.0447,0.003,0.0863,0.8667,False,False
+hsa-mir-9-2,paralog locus,r2_full,0.548,0.548,d = R2_model - 0.8 r2_best >= 0,0.0728,0.0357,0.1099,1.0,False,False
+hsa-mir-9-3,tumour state,r2_full,0.5476,0.5476,d = R2_model - 0.8 r2_best >= 0,0.0001,-0.036,0.0362,0.4667,True,False
+hsa-mir-92a-1,tumour state,r2_full,0.6093,0.6093,d = R2_model - 0.8 r2_best >= 0,0.0143,-0.0233,0.052,0.5333,True,False
+hsa-mir-92a-2,tumour state,r2_full,0.6086,0.6086,d = R2_model - 0.8 r2_best >= 0,0.0169,-0.0236,0.0573,0.6,True,False
+hsa-mir-92b,own locus,r2_full,0.4483,0.4483,d = R2_model - 0.8 r2_best >= 0,0.0377,-0.0496,0.125,0.7333,True,False
+hsa-mir-93,tumour state,r2_full,0.5023,0.5023,d = R2_model - 0.8 r2_best >= 0,0.0102,-0.0332,0.0537,0.5333,True,False
+hsa-mir-937,host + state,r2_full,0.5538,0.5538,d = R2_model - 0.8 r2_best >= 0,0.0414,0.0123,0.0704,1.0,False,False
+hsa-mir-940,partly explained,r2_full,0.3951,0.3951,closest failed rule 'locus': d < 0; and gap - 0.10 < 0,-0.0056,-0.0576,0.0464,0.1333,True,True
+hsa-mir-942,tumour state,r2_host_state_20,0.5076,0.5362,d = R2_model - 0.8 r2_best >= 0,0.0356,-0.0029,0.074,0.8667,True,False
+hsa-mir-95,host + state,r2_host_state_20,0.3104,0.4568,d = R2_model - 0.8 r2_best >= 0,0.0914,0.0774,0.1054,1.0,False,False
+hsa-mir-96,own locus,r2_full,0.4235,0.4235,d = R2_model - 0.8 r2_best >= 0,0.0549,0.0099,0.0999,0.9333,False,False
+hsa-mir-98,residual,r2_full,0.3911,0.3911,gap - 0.10 >= 0,0.0005,-0.0497,0.0506,0.6,True,False
+hsa-mir-99a,host,r2_host_state_20,0.4921,0.5323,d = R2_model - 0.8 r2_best >= 0,0.0186,-0.0433,0.0804,0.6667,True,False
+hsa-mir-99b,host + state,r2_full,0.3918,0.3918,d = R2_model - 0.8 r2_best >= 0,0.0227,-0.0247,0.0701,0.8667,True,True

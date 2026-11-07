@@ -1,0 +1,4 @@
+pair,cramers_v,cramers_v_bias_corrected,chi2,n_rows,n_cols,n_tumours,n_nonzero_cells,n_cells
+mrna_plate_vs_mirna_plate,0.9723,0.9713,38826.3377,40,40,1053,47,1600
+mrna_plate_vs_tss,0.3824,0.3366,6003.7874,40,40,1053,244,1600
+mirna_plate_vs_tss,0.3849,0.3397,6084.5829,40,40,1053,245,1600

@@ -1,0 +1,305 @@
+{
+ "analysis_set": {
+  "tumours": 1053,
+  "targets": 337,
+  "genes": 27671,
+  "pam50_counts": {
+   "LumA": 551,
+   "LumB": 200,
+   "Basal": 181,
+   "Her2": 81,
+   "Normal": 40
+  }
+ },
+ "main_design": "5-fold cross-validation grouped by mRNA sequencing plate (40 plates; folds balanced by tumour count, 211/211/211/210/210), 3 repeats (seeds 42-44), 15 test folds",
+ "comparison_designs": {
+  "patient-grouped": "GroupKFold by patient, 5 folds x 3 repeats",
+  "site-grouped": "whole tissue source sites (40), folds balanced by tumour count, 3 repeats"
+ },
+ "category_counts": {
+  "plate-grouped (main)": {
+   "host": 19,
+   "tumour state": 39,
+   "host + state": 85,
+   "own locus": 60,
+   "paralog locus": 5,
+   "residual": 25,
+   "partly explained": 7,
+   "poorly predicted": 97
+  },
+  "patient-grouped": {
+   "host": 18,
+   "tumour state": 29,
+   "host + state": 90,
+   "own locus": 68,
+   "paralog locus": 7,
+   "residual": 47,
+   "partly explained": 24,
+   "poorly predicted": 54
+  },
+  "patient-grouped, plate-adjusted": {
+   "host": 27,
+   "tumour state": 48,
+   "host + state": 83,
+   "own locus": 70,
+   "paralog locus": 10,
+   "residual": 26,
+   "partly explained": 10,
+   "poorly predicted": 63
+  }
+ },
+ "median_share_of_r2_best": {
+  "plate_cv": {
+   "host": {
+    "median": 0.26034344644063817,
+    "n_defined": 167
+   },
+   "state_20": {
+    "median": 0.6652963849469167,
+    "n_defined": 240
+   },
+   "host_state_20": {
+    "median": 0.8539145404974336,
+    "n_defined": 240
+   },
+   "locus_state20": {
+    "median": 0.9635740914096526,
+    "n_defined": 240
+   },
+   "host_locus_state20": {
+    "median": 0.9635740914096526,
+    "n_defined": 240
+   },
+   "best_ref": {
+    "median": 0.9684335439902187,
+    "n_defined": 240
+   },
+   "r2_full": {
+    "median": 1.0,
+    "n_defined": 240
+   }
+  },
+  "patient_cv": {
+   "host": {
+    "median": 0.26383981943983414,
+    "n_defined": 199
+   },
+   "state_20": {
+    "median": 0.6399859393092855,
+    "n_defined": 283
+   },
+   "host_state_20": {
+    "median": 0.7935724558320301,
+    "n_defined": 283
+   },
+   "locus_state20": {
+    "median": 0.8922632435176467,
+    "n_defined": 282
+   },
+   "host_locus_state20": {
+    "median": 0.8922632435176467,
+    "n_defined": 282
+   },
+   "best_ref": {
+    "median": 0.894072332951996,
+    "n_defined": 283
+   },
+   "r2_full": {
+    "median": 1.0,
+    "n_defined": 283
+   }
+  },
+  "adjusted": {
+   "host": {
+    "median": 0.35563324025393206,
+    "n_defined": 192
+   },
+   "state_20": {
+    "median": 0.6555250900788244,
+    "n_defined": 274
+   },
+   "host_state_20": {
+    "median": 0.8526921987048448,
+    "n_defined": 274
+   },
+   "locus_state20": {
+    "median": 0.9786047626586083,
+    "n_defined": 274
+   },
+   "host_locus_state20": {
+    "median": 0.9764312021557537,
+    "n_defined": 274
+   },
+   "best_ref": {
+    "median": 0.987001310664303,
+    "n_defined": 274
+   },
+   "r2_full": {
+    "median": 1.0,
+    "n_defined": 274
+   }
+  }
+ },
+ "robust": {
+  "plate_cv": {
+   "unchanged_windows_and_pc_exclusion": 318,
+   "k10_k50_unchanged": 222,
+   "not_borderline": 146,
+   "robust": 141,
+   "robust_also_k": 121,
+   "robust_non_poor": 104,
+   "robust_also_k_non_poor": 84,
+   "robust_by_label": {
+    "host": 4,
+    "tumour state": 9,
+    "host + state": 52,
+    "own locus": 31,
+    "paralog locus": 3,
+    "residual": 5,
+    "partly explained": 0,
+    "poorly predicted": 37
+   },
+   "robust_also_k_by_label": {
+    "host": 4,
+    "tumour state": 5,
+    "host + state": 43,
+    "own locus": 25,
+    "paralog locus": 2,
+    "residual": 5,
+    "partly explained": 0,
+    "poorly predicted": 37
+   }
+  },
+  "patient_cv": {
+   "unchanged_windows_and_pc_exclusion": 302,
+   "k10_k50_unchanged": 185,
+   "not_borderline": 155,
+   "robust": 149,
+   "robust_also_k": 125,
+   "robust_non_poor": 120,
+   "robust_also_k_non_poor": 96,
+   "robust_by_label": {
+    "host": 7,
+    "tumour state": 6,
+    "host + state": 58,
+    "own locus": 29,
+    "paralog locus": 3,
+    "residual": 17,
+    "partly explained": 0,
+    "poorly predicted": 29
+   },
+   "robust_also_k_by_label": {
+    "host": 7,
+    "tumour state": 4,
+    "host + state": 47,
+    "own locus": 24,
+    "paralog locus": 3,
+    "residual": 11,
+    "partly explained": 0,
+    "poorly predicted": 29
+   }
+  }
+ },
+ "clinical": {
+  "r2_pam50_cpe": {
+   "median_r2_all_337": 0.061240693591769334,
+   "median_share_over_r2_best_non_poor": 0.22174003594185354,
+   "median_share_over_r2_full_r2full_ge_0.3": 0.2403353405632749,
+   "max_share_over_r2_best_non_poor": 0.7616314395267277,
+   "n_ge_0.8_r2_best_non_poor": 0,
+   "patient_median_share_over_r2_best_non_poor": 0.2402596907679452
+  },
+  "r2_pam50_cpe_lump_indicator": {
+   "median_r2_all_337": 0.05786656281272206,
+   "median_share_over_r2_best_non_poor": 0.21761090795496868,
+   "median_share_over_r2_full_r2full_ge_0.3": 0.23409345831724382,
+   "max_share_over_r2_best_non_poor": 0.7642493904302134,
+   "n_ge_0.8_r2_best_non_poor": 0,
+   "patient_median_share_over_r2_best_non_poor": 0.2775707031784787
+  },
+  "r2_pam50_cpe_lump_meanimputed": {
+   "median_r2_all_337": 0.06384437368173475,
+   "median_share_over_r2_best_non_poor": 0.22370600502511184,
+   "median_share_over_r2_full_r2full_ge_0.3": 0.2502513464492149,
+   "max_share_over_r2_best_non_poor": 0.7596065614126555,
+   "n_ge_0.8_r2_best_non_poor": 0,
+   "patient_median_share_over_r2_best_non_poor": 0.2409731979993981
+  }
+ },
+ "programmes": {
+  "definition": "mean of per-gene z-scores of log2(TPM+1) over the analysis set; all genes in the matrix (not only filtered genes)",
+  "sets": {
+   "proliferation": [
+    "MKI67",
+    "TOP2A",
+    "CCNB1",
+    "BUB1",
+    "CDK1",
+    "MCM2",
+    "PCNA"
+   ],
+   "T cell": [
+    "CD3D",
+    "CD3E",
+    "CD2",
+    "CD247"
+   ],
+   "B/plasma": [
+    "MS4A1",
+    "CD19",
+    "CD79A",
+    "MZB1",
+    "JCHAIN"
+   ],
+   "myeloid": [
+    "CD68",
+    "CD163",
+    "CSF1R",
+    "CD14"
+   ],
+   "fibroblast": [
+    "COL1A1",
+    "COL1A2",
+    "DCN",
+    "LUM"
+   ],
+   "endothelial": [
+    "PECAM1",
+    "VWF",
+    "CDH5"
+   ],
+   "ER/luminal": [
+    "ESR1",
+    "PGR",
+    "FOXA1",
+    "GATA3"
+   ],
+   "basal": [
+    "KRT5",
+    "KRT14",
+    "KRT17"
+   ],
+   "HER2": [
+    "ERBB2",
+    "GRB7"
+   ],
+   "hypoxia": [
+    "CA9",
+    "VEGFA",
+    "ADM",
+    "NDRG1"
+   ],
+   "epithelial": [
+    "EPCAM",
+    "CDH1",
+    "KRT8",
+    "KRT18"
+   ],
+   "ciliary": [
+    "FOXJ1",
+    "CDHR3",
+    "DNAH5"
+   ]
+  }
+ }
+}

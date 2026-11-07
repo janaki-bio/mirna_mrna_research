@@ -1,6 +1,20 @@
+# raw and intermediate data (large, re-downloadable)
 data/
-*.csv
-*.tsv
+*.pkl
+*.gtf
+*.gtf.gz
+
+# files written by the analysis scripts (curated copies are in results/)
+analysis/results/
+analysis/cache/
+analysis/figures/
+analysis/external/tcgabiolinks/
+# analysis/external/gdc/file_aliquots.csv is kept
+analysis/external/gdc/aliquots_response.json
+analysis/external/gencode_v36/
+
+# generated
+report/report.html
 __pycache__/
 .ipynb_checkpoints/
 *.pyc

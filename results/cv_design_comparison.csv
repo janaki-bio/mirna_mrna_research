@@ -1,0 +1,7 @@
+model,design,mean_r2_foldmean,mean_r2_pooled,n_gt_0_5_foldmean,n_gt_0_5_pooled
+full,patient-grouped,0.4229,0.4269,102,106
+full,site-grouped,0.4016,0.4133,89,96
+full,plate-grouped,0.3621,0.3801,62,65
+20 components,patient-grouped,0.2745,0.2787,16,16
+20 components,site-grouped,0.2565,0.2697,16,16
+20 components,plate-grouped,0.239,0.2594,12,16

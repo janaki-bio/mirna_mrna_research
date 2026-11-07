@@ -1,0 +1,7 @@
+name: r-env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.5.3
+  - bioconductor-tcgabiolinks=2.38.0

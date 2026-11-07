@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this analysis or its results, please cite it as below."
+title: "What do mRNA-based predictions of microRNA expression measure? An attribution analysis of 337 miRNA precursors in TCGA breast tumours"
+authors:
+  - family-names: Balasubramanian
+    given-names: Janaki
+date-released: 2026-11-05
+url: "https://github.com/janaki-bio/mirna_mrna_research"
+license: MIT
