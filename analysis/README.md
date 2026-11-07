@@ -8,7 +8,7 @@ The scripts run in numeric order (`run_all.sh`). Each reads the outputs of the p
 | `02_build_matrices.py` | Matches primary tumours with mRNA and miRNA files; builds the TPM and RPM matrices from `data/raw` | `cache/mrna_matrix.pkl`, `cache/mirna_matrix.pkl`, `results/00_data_checks.csv` | Methods: Data |
 | `03_holdout_rf_r2.py` | Random forest on an 80/20 split for the 100 most variable miRNAs | `data/r2_results.csv` | Supplement: model choice |
 | `04_select_analysis_set.py` | Drops FFPE, keeps one tumour per patient with PAM50 and CPE (1,053) | `results/audit_samples.csv`, `audit_sample_steps.json` | Methods: Cohort; Results: Study design and cohort |
-| `05_fetch_plate_barcodes.py` | Fetches aliquot barcodes (plates) from the GDC API; the output is included in the repository | `external/gdc/file_aliquots.csv` | Methods: Batches, sites and cross-validation designs |
+| `05_fetch_plate_barcodes.py` | Fetches aliquot barcodes (plates) from the GDC API; the output is included in the repository, so `run_all.sh` skips this step unless `FETCH_GDC_API=1` | `external/gdc/file_aliquots.csv` | Methods: Batches, sites and cross-validation designs |
 | `06_annotate_hosts.py` | Host genes, host type, ±50 kb neighbours, paralog groups and clusters from GENCODE v36 | `results/audit_hosts.csv`, `audit_mir_mapping.csv` | Methods: Host genes, loci and paralogs |
 | `07_annotate_low_expression_hosts.py` | Same annotation for mir-934, mir-577, mir-449a and mir-449b | `results/audit_hosts_low_expression.csv` | Supplement: low-expression miRNAs |
 | `08_cross_mapped_reads.py` | Cross-mapped read flags in the raw miRNA files | `results/10_e4_cross_mapped_all.csv` | Methods: Host genes, loci and paralogs (flag X) |
@@ -39,7 +39,8 @@ Report sections are those of `report/mirna_prediction_attribution.pdf`.
 ## Running
 
 ```bash
-bash analysis/run_all.sh
+conda activate omics
+RSCRIPT="conda run -n r-env Rscript" bash analysis/run_all.sh
 ```
 
 Run it from the repository root (or anywhere). Requirements:
@@ -47,7 +48,7 @@ Run it from the repository root (or anywhere). Requirements:
 - the `omics` environment (`environment.yml`) for the Python steps and the `r-env` environment (`environment-r.yml`) for step 01; set `PY` and `RSCRIPT` to choose the interpreters;
 - raw data in `data/raw` (step 0 of `run_all.sh` calls `gdc-client download`, about 5 GB, needs network);
 - the GENCODE v36 annotation at `analysis/external/gencode_v36/gencode.v36.annotation.gtf.gz`;
-- network is also needed for step 05 (GDC API; step 01 uses the data bundled with TCGAbiolinks). Step 05 is optional: `external/gdc/file_aliquots.csv` is included; set `SKIP_GDC_API=1` to skip it.
+- step 05 (GDC API query for the plate barcodes) is skipped by default and the included `external/gdc/file_aliquots.csv` is used; set `FETCH_GDC_API=1` to re-query the API, which needs network and overwrites the included file. Step 01 uses the data bundled with TCGAbiolinks and needs no network.
 
 The full run takes roughly four hours on six cores. The slowest steps are 13 (~20 min), 21 (~22 min for each of the two designs) and 24 (~40 min). Fits are cached in `analysis/cache/`; delete a cache file to refit.
 

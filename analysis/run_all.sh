@@ -5,8 +5,9 @@
 #
 # Environments: the Python steps use the conda env "omics" (environment.yml), step 01 uses "r-env" (environment-r.yml).
 # Override the interpreters if needed:  PY="conda run -n omics python" RSCRIPT=/path/to/Rscript bash analysis/run_all.sh
-# Network access is needed for: step 0 (gdc-client download, about 5 GB) and step 05
-# (GDC API query; optional: analysis/external/gdc/file_aliquots.csv is included, set SKIP_GDC_API=1 to skip the step).
+# Network access is needed for step 0 (gdc-client download, about 5 GB). Step 05 (GDC API query for the plate barcodes)
+# is skipped by default and the included analysis/external/gdc/file_aliquots.csv is used; set FETCH_GDC_API=1 to
+# re-query the API (this overwrites the included file).
 # Runtimes are approximate (6 cores); the slow steps are 13, 21 (twice) and 24. Total: roughly 4 hours; steps 26 and 27 were not timed.
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -31,8 +32,8 @@ step "01 PAM50 and purity [~1 min]";                           $RSCRIPT 01_expor
 step "02 expression matrices from data/raw [~2 min]";         $PY 02_build_matrices.py --rebuild
 step "03 holdout random forest, data/r2_results.csv [~4 min]"; $PY 03_holdout_rf_r2.py
 step "04 analysis set [<1 min]";                               $PY 04_select_analysis_set.py
-step "05 plate barcodes from the GDC API [network, <1 min; optional]"
-if [ "${SKIP_GDC_API:-0}" != 1 ]; then $PY 05_fetch_plate_barcodes.py; fi
+step "05 plate barcodes [included file; FETCH_GDC_API=1 re-queries the GDC API]"
+if [ "${FETCH_GDC_API:-0}" = 1 ]; then $PY 05_fetch_plate_barcodes.py; else echo "using external/gdc/file_aliquots.csv"; fi
 step "06 host / locus annotation [~1 min]";                    $PY 06_annotate_hosts.py
 step "07 low-expression miRNA hosts [<1 min]";                 $PY 07_annotate_low_expression_hosts.py
 step "08 cross-mapped read flags [<1 min]";                   $PY 08_cross_mapped_reads.py

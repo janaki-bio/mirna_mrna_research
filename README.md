@@ -58,7 +58,12 @@ environment-r.yml                    R environment (PAM50 and purity via TCGAbio
    gdc-client download -m gdc_manifest.2026-08-17.143921.txt -d data/raw
    ```
    Download the GENCODE v36 annotation (`gencode.v36.annotation.gtf.gz`) from [gencodegenes.org](https://www.gencodegenes.org) to `analysis/external/gencode_v36/`. Sequencing plates come from the aliquot barcodes; the GDC API result is included as `analysis/external/gdc/file_aliquots.csv`.
-3. **Analysis.** Run `bash analysis/run_all.sh` (about 4 hours). It runs the scripts in `analysis/` in numeric order and finally `analysis/export_results.py`, which writes the tables in `results/`. See `analysis/README.md` for what each step does.
+3. **Analysis.** From the repository root (about 4 hours):
+   ```bash
+   conda activate omics
+   RSCRIPT="conda run -n r-env Rscript" bash analysis/run_all.sh
+   ```
+   This runs the scripts in `analysis/` in numeric order and finally `analysis/export_results.py`, which writes the tables in `results/`. See `analysis/README.md` for what each step does.
 4. **Figures.** From the repository root:
    ```bash
    python report/make_figures.py

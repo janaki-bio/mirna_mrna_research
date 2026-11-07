@@ -4,6 +4,7 @@ title: "What do mRNA-based predictions of microRNA expression measure? An attrib
 authors:
   - family-names: Balasubramanian
     given-names: Janaki
+version: "1.0"
 date-released: 2026-11-05
 url: "https://github.com/janaki-bio/mirna_mrna_research"
 license: MIT
